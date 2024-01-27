@@ -65,7 +65,6 @@ const HeroContent = () => {
           </Link>
         </a>
       </div>
-
       <div
         // variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center items-center"
