@@ -47,13 +47,6 @@ export const Skill_data_one = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "Framer Motion",
-      Image: "/framer.png",
-      width: 80,
-      height: 80,
-    },
-    
   ];
   
   export const Socials = [
@@ -106,6 +99,12 @@ export const Skill_data_one = [
       Image: "/figma.png",
       width: 50,
       height: 50,
+    },
+    {
+      skill_name: "Framer Motion",
+      Image: "/framer.png",
+      width: 80,
+      height: 80,
     },
   ];
   

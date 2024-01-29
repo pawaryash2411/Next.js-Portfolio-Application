@@ -24,9 +24,7 @@ const HeroContent = () => {
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px]">
-            Have the Tea and Start the Hustle!!
-          </h1>
+          <h1 className="Welcome-text text-[13px]">True Enthusiasm!!</h1>
         </div>
 
         <div
@@ -58,7 +56,7 @@ const HeroContent = () => {
               "https://drive.google.com/file/d/1GRCjI7xRdGkdNOOe2ZS8fNTvbMqnvaNE/view?usp=drive_link"
             }
             target="_blank"
-            className="py-2 button-primary text-center uppercase text-white cursor-pointer 
+            className="py-2 px-10 button-primary text-center uppercase text-white cursor-pointer 
             rounded-lg max-w-[200px]"
           >
             My Resume

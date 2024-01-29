@@ -80,10 +80,6 @@ const Footer = () => {
             <div className="font-bold text-[16px]">Reach Out Me</div>
             <p className="flex flex-row items-center my-[10px] cursor-pointer">
               <p className="flex flex-row items-center my-[10px] cursor-pointer">
-                <AiOutlineNumber />
-                <span className="text-[15px] ml-[6px]">+91 XXXXXXXXXX</span>
-              </p>
-              <p className="flex flex-row items-center my-[10px] cursor-pointer">
                 <IoIosMailUnread />
                 <span className="text-[15px] ml-[6px]">
                   pawaryash2411@gmail.com
