@@ -2,11 +2,6 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import {
-  slideInFromLeft,
-  slideInFromRight,
-  slideInFromTop,
-} from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import Link from "next/link";
@@ -53,7 +48,7 @@ const HeroContent = () => {
         >
           <Link
             href={
-              "https://drive.google.com/file/d/1GRCjI7xRdGkdNOOe2ZS8fNTvbMqnvaNE/view?usp=drive_link"
+              "https://drive.google.com/file/d/1SXHF9BMy1HcLBOqYDqdT0r5g2fjTk12i/view?usp=sharing"
             }
             target="_blank"
             className="py-2 px-10 button-primary text-center uppercase text-white cursor-pointer 

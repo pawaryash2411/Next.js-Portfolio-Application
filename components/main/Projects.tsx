@@ -4,16 +4,16 @@ import ProjectCard from "../sub/ProjectCard";
 const Projects = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center z-50"
+      className="flex flex-col items-center justify-center z-40"
       id="projects"
     >
       <h1
         className="text-[40px] text-center font-semibold text-transparent bg-clip-text 
-      bg-gradient-to-r from-purple-500 to-cyan-500 py-20"
+      bg-gradient-to-r from-purple-500 to-cyan-500 pb-20"
       >
         Personal Projects
       </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      <div className="h-full w-full px-16 flex flex-col justify-center items-start md:flex-row gap-10">
         <ProjectCard
           src="/Estate.png"
           title="HomeCore"
