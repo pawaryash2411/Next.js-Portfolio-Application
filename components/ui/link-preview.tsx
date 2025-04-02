@@ -35,7 +35,6 @@ export const LinkPreview = ({
   layout = "fixed",
   isStatic = false,
   imageSrc = "",
-  target
 }: LinkPreviewProps) => {
   let src;
   if (!isStatic) {
