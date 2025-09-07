@@ -6,6 +6,7 @@ import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import Link from "next/link";
 import { HoverBorderGradient } from "../ui/hover-border-gradient";
+import { IconCloudDemo } from "./IconCloud";
 
 const HeroContent = () => {
   return (
@@ -58,7 +59,7 @@ const HeroContent = () => {
         >
           <Link
             href={
-              "https://drive.google.com/file/d/1SXHF9BMy1HcLBOqYDqdT0r5g2fjTk12i/view?usp=sharing"
+              "https://drive.google.com/file/d/18wOs80SYgdORMViiudw7ppPuK9NOjUah/view?usp=drive_link"
             }
             target="_blank"
             className="py-2 px-10 button-primary text-center uppercase text-white cursor-pointer 
@@ -72,12 +73,14 @@ const HeroContent = () => {
         // variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center items-center invisible lg:visible xl:visible md:visible"
       >
-        <Image
+        {/* <Image
           src="/mainIconsdark.svg"
           alt="work icons"
           height={650}
           width={650}
-        />
+        /> */}
+
+        <IconCloudDemo/>
       </div>
     </div>
   );

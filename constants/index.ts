@@ -106,6 +106,12 @@ export const Skill_data_one = [
       width: 80,
       height: 80,
     },
+    {
+      skill_name: "Flutter",
+      Image: "/flutter.png",
+      width: 60,
+      height: 60,
+    },
   ];
   
 

@@ -5,6 +5,7 @@ import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
 import CustomCursor from "@/components/sub/CustomCursor";
+import NamasteAnimation from "@/components/main/NamasteAnimation";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
       >
         <CustomCursor />
         <StarsCanvas />
+        <NamasteAnimation />
         <Navbar />
         {children}
         <Footer />
