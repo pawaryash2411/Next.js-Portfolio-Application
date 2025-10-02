@@ -104,7 +104,7 @@ const navItems = [
   { name: "Home", url: "#", icon: Home },
   { name: "Skills", url: "#skills", icon: FileText },
   { name: "Projects", url: "#projects", icon: Briefcase },
-  { name: "Blogs", url: "#blogs", icon: NotebookPen },
+  // { name: "Blogs", url: "#blogs", icon: NotebookPen },
   { name: "Contact", url: "#contact", icon: User },
 ];
 
