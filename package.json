@@ -27,7 +27,6 @@
     "react-icon-cloud": "^4.1.7",
     "react-icons": "^4.11.0",
     "tailwind-merge": "^3.0.2",
-    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@react-three/drei": "^9.88.4",
@@ -47,3 +46,4 @@
     "typescript": "^5"
   }
 }
+
