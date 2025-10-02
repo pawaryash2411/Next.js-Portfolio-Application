@@ -3,7 +3,7 @@ import { ThreeDCardDemo } from "../sub/ThreeDProjectCard";
 
 const Projects = () => {
   return (
-    <section className="flex flex-col items-center justify-center z-40" id="projects">
+    <section className="flex flex-col items-center justify-center z-40 pt-40" id="projects">
       <div className="w-full px-4 md:px-8 lg:px-16 xl:px-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 justify-items-center">
         <div className="w-full h-full max-w-md">
           <ThreeDCardDemo

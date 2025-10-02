@@ -43,7 +43,7 @@ export function ThreeDCardDemo({ src, title, description, link }: Props) {
             as={Link}
             href={link}
             target="__blank"
-            className="px-3 py-1 md:px-4 md:py-2 rounded-xl bg-black text-white text-xs font-bold"
+            className="px-3 py-1 md:px-4 md:py-2 rounded-xl bg-black text-white text-xs font-bold poppins-font"
           >
             Try now →
           </CardItem>

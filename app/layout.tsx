@@ -29,7 +29,6 @@ export default function RootLayout({
         <NamasteAnimation />
         <Navbar />
         {children}
-        <Footer />
       </body>
     </html>
   );

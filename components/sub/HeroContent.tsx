@@ -63,7 +63,7 @@ const HeroContent = () => {
             }
             target="_blank"
             className="py-2 px-10 button-primary text-center uppercase text-white cursor-pointer 
-            rounded-lg max-w-[200px]"
+            rounded-lg max-w-[200px] poppins-font"
           >
             My Resume
           </Link>
