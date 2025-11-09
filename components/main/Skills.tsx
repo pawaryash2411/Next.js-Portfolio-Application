@@ -2,7 +2,6 @@ import { Skill_data_two, Skill_data_one } from "@/constants";
 import React from "react";
 import SkillDataProvider from "../sub/SkillDataProvider";
 import SkillText from "../sub/SkillText";
-import Prism from "../sub/Prism";
 
 const Skills = () => {
   return (
@@ -36,24 +35,6 @@ const Skills = () => {
           />
         ))}
       </div>
-
-      {/* <div className="w-full h-full absolute">
-        <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
-          <div style={{ width: "100%", height: "600px", position: "relative" }}>
-            <Prism
-              animationType="rotate"
-              timeScale={0.5}
-              height={3.5}
-              baseWidth={5.5}
-              scale={3.6}
-              hueShift={0}
-              colorFrequency={1}
-              noise={0.5}
-              glow={1}
-            />
-          </div>
-        </div>
-      </div> */}
     </section>
   );
 };
