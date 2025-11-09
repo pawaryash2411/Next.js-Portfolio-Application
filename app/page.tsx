@@ -21,7 +21,7 @@ export default function Home() {
             text="YASH*DEV*UNIVERSE*"
             spinDuration={10}
             onHover="speedUp"
-            imageSrc="/me.jpeg"
+            imageSrc="me.jpeg"
             className="text-cyan-400"
           />
         </div>
