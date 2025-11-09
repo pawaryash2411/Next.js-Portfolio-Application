@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 import { TracingBeam } from "./TracingBeam";
 
 export function TracingBeamDemo() {
@@ -27,9 +28,11 @@ export function TracingBeamDemo() {
                   <div className="lg:w-1/3 flex items-start justify-center">
                     <div className="relative group">
                       <div className="absolute -inset-1 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-300"></div>
-                      <img
+                      <Image
                         src={item.image}
                         alt="blog thumbnail"
+                        width={400}
+                        height={300}
                         className="relative rounded-lg object-cover w-full h-64 lg:h-72 transition-transform duration-300 group-hover:scale-105"
                       />
                     </div>
@@ -58,7 +61,7 @@ const dummyContent = [
         <p className="mb-4">
           Our understanding of the cosmos expands with each mission, each
           telescope, and each curious mind looking up at the night sky. Space
-          exploration represents humanity's endless curiosity and drive to
+          exploration represents humanity&apos;s endless curiosity and drive to
           understand our place in the universe.
         </p>
         <p>
@@ -86,7 +89,7 @@ const dummyContent = [
         <p>
           Scientists are developing sophisticated instruments to detect
           biosignatures in planetary atmospheres and technosignatures that might
-          indicate intelligent civilizations. The search extends from Mars'
+          indicate intelligent civilizations. The search extends from Mars&apos;
           ancient riverbeds to the icy moons of Jupiter and Saturn where
           subsurface oceans might harbor life.
         </p>

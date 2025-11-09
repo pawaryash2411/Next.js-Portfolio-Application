@@ -338,6 +338,7 @@ const AnimationController: FC<AnimationControllerProps> = ({ animationState }) =
       animationState.positions[i].set(offset.x, offset.y, 0)
       animationState.rotations[i].set(0, 0, 0)
     })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return null
