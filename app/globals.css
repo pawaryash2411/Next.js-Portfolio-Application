@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono&display=swap');
 /* @import "tailwindcss"; */
-/* @import "tw-animate-css"; */
+@import "tw-animate-css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -172,7 +172,6 @@ html {
   from {
     transform: translateY(0px);
   }
-
   to {
     transform: translateY(-2000px);
   }
@@ -183,17 +182,13 @@ html {
     transform: translateY(-26px);
     opacity: 0;
   }
-
-  30%,
-  80% {
+  30%, 80% {
     letter-spacing: 40px;
     padding-left: 40px;
     transform: translateY(0px);
     opacity: 1;
   }
-
-  92%,
-  100% {
+  92%, 100% {
     letter-spacing: 35px;
     padding-left: 35px;
     transform: translateY(-4px);
@@ -202,63 +197,45 @@ html {
 }
 
 @keyframes animDont {
-
-  0%,
-  15% {
+  0%, 15% {
     transform: translateY(-26px);
     opacity: 0;
   }
-
-  35%,
-  80% {
+  35%, 80% {
     transform: translateY(0px);
     opacity: 1;
   }
-
-  92%,
-  100% {
+  92%, 100% {
     transform: translateY(-4px);
     opacity: 0;
   }
 }
 
 @keyframes animLet {
-
-  0%,
-  25% {
+  0%, 25% {
     transform: translateY(-26px);
     opacity: 0;
   }
-
-  45%,
-  80% {
+  45%, 80% {
     transform: translateY(0px);
     opacity: 1;
   }
-
-  92%,
-  100% {
+  92%, 100% {
     transform: translateY(-4px);
     opacity: 0;
   }
 }
 
 @keyframes animGo {
-
-  0%,
-  35% {
+  0%, 35% {
     transform: translateY(-26px);
     opacity: 0;
   }
-
-  55%,
-  80% {
+  55%, 80% {
     transform: translateY(0px);
     opacity: 1;
   }
-
-  92%,
-  100% {
+  92%, 100% {
     transform: translateY(-4px);
     opacity: 0;
   }
